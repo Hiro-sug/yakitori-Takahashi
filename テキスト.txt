@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>串焼き専門店タカハシ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f3ec;
+            color: #333;
+        }
+        header {
+            background-color: #d35400;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: white;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .content-section {
+            padding: 20px;
+        }
+        .menu, .contact {
+            background-color: #ecf0f1;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #34495e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>串焼き専門店タカハシ</h1>
+        <p>クアラルンプールで炭火焼きの本格的な味を体験</p>
+    </header>
+    <nav>
+        <a href="#menu">メニュー</a>
+        <a href="#about">ストーリー</a>
+        <a href="#gallery">ギャラリー</a>
+        <a href="#contact">お問い合わせ</a>
+    </nav>
+    <div class="hero">
+        <h1>本物の味を追求する</h1>
+        <p>新鮮な素材とこだわりの炭火焼き</p>
+    </div>
+    <section id="menu" class="content-section menu">
+        <h2>メニュー</h2>
+        <ul>
+            <li>鶏もも串 - RM1.50</li>
+            <li>海老串 - RM3.50</li>
+            <li>チョコバナナ串 - RM4.00</li>
+            <li>ビール - RM8.00</li>
+        </ul>
+    </section>
+    <section id="about" class="content-section">
+        <h2>ストーリー</h2>
+        <p>串焼き専門店タカハシは、クアラルンプールの中心地で本格的な炭火焼きを提供しています。地元の新鮮な食材を使い、風味豊かな料理をお届けします。</p>
+    </section>
+    <section id="gallery" class="content-section">
+        <h2>ギャラリー</h2>
+        <p>写真ギャラリーは準備中です。</p>
+    </section>
+    <section id="contact" class="content-section contact">
+        <h2>お問い合わせ</h2>
+        <p>営業時間：</p>
+        <ul>
+            <li>平日：11:00〜14:00、18:00〜翌日3:00</li>
+            <li>休・祝日：11:00〜14:00、18:00〜翌日3:00</li>
+        </ul>
+        <p>住所：クアラルンプール</p>
+        <p>電話：+60 12-3456-7890</p>
+        <p>メール：info@takahashi-yakitori.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 串焼き専門店タカハシ - All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
